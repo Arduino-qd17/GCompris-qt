@@ -122,7 +122,7 @@ ActivityBase {
             anchors.bottom: questionItemBackground.bottom
             fontSizeMode: Text.Fit
             wrapMode: Text.Wrap
-            z: 10
+            z: 4
             color: "white"
             verticalAlignment: Text.AlignVCenter
             horizontalAlignment: Text.AlignHCenter
@@ -189,6 +189,7 @@ ActivityBase {
 
         Score {
             id: score
+            visible: !tutorialImage.visible
             anchors.bottom: bar.top
             anchors.right: bar.right
             anchors.left: parent.left
