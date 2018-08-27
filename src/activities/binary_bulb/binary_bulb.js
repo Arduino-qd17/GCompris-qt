@@ -33,7 +33,7 @@ var tutorialInstructions = [
             },
             {
                 "instruction": qsTr("Computers use transistors to count and transistors have only 2 states, 0 and 1. Mathematically they are represented by binary digits, a digit like a transistor has 2 states, 0 and 1."),
-                "instructionImage" : "qrc:/gcompris/src/activities/binary_bulb/resource/tutorial3.svg"
+                "instructionImage" : "qrc:/gcompris/src/activities/binary_bulb/resource/tutorial2.svg"
             },
             {
                 "instruction": qsTr("Binary system uses these digits in a very efficient way, allowing with only 8 bits to count from 0 to 255."),
@@ -54,6 +54,10 @@ var tutorialInstructions = [
             {
                 "instruction": qsTr("In the activity 0 and 1 are simulated by bulbs, switched on or off."),
                 "instructionImage": "qrc:/gcompris/src/activities/binary_bulb/resource/tutorial7.svg"
+            },
+            {
+                "instruction": qsTr("This table will help you to compute the last levels of the activity which do not display the bits weight."),
+                "instructionImage": "qrc:/gcompris/src/activities/binary_bulb/resource/tutorial8.svg"
             }
         ]
 var levelDataset
